@@ -1,5 +1,5 @@
 echo "Hallo `whoami`!"
-echo "Dit is een simpel script, en vandaag is het de 16e!" # fixme: vervang de 16e met `date +%d`
+echo "Dit is een simpel script, en vandaag is het de date +%d!" # fixme: vervang de 16e met `date +%d`
 
 if [ ! -f "laatstekeer.txt" ]; then
 	echo "Dit is de eerste keer dat je dit script draait!"
